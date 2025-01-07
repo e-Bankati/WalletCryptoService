@@ -10,7 +10,6 @@ RUN mvn clean install
 FROM openjdk:17-jdk-slim
 
 
-# Expose the port used by the Config Server
 EXPOSE 8070
 
 # Copy the jar file of the Config Server application into the container
