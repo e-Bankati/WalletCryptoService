@@ -12,7 +12,6 @@ FROM openjdk:17-jdk-slim
 
 EXPOSE 8070
 
-# Copy the jar file of the Config Server application into the container
 COPY --from=build target/WalletCryptoService-0.0.1-SNAPSHOT.jar app.jar
 
 
