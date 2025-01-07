@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 
 @FeignClient(
         name = "wallet-service",
-        url = "${application.config.wallet-url}"
+        url = "https://walletservice-6ubo.onrender.com"
 )
 public interface WalletClient {
 
