@@ -3,11 +3,11 @@ server:
 
 eureka:
   instance:
-    hostname: bankati-wallet-crypto.onrender.com
+    hostname: walletcryptoservice.onrender.com
   client:
     serviceUrl:
       defaultZone:
-        ${EUREKA_HOST:https://bankatii-discovery.onrender.com/eureka/}
+        ${EUREKA_HOST:https://bankatii-discovery-server.onrender.com/eureka/}
     register-with-eureka: false
     fetch-registry: false
   server:
